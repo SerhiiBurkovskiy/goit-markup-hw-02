@@ -16,6 +16,10 @@
   letter-spacing: 0.02em;
   color: #212121;
 }
+
+.logo .nav.current{
+  color: #2196f3;
+}
 .nav:hover,
 .nav:focus {
   color: #2196f3;
@@ -42,6 +46,10 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+}
+.contacontacts-header-tel:hover,
+.contacontacts-header-tel:focus {
+  color: #2196f3;
 }
 /* Основний заголовок */
 h1 {
@@ -143,8 +151,19 @@ h1 {
 /* Портфоліо */
 
 /* Кнопки фільтра */
-.list-botton-filtres {
+.list-botton-filtres-all{
   background: #2196f3;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;;
+
+}
+.list-botton-filtres {
+  background: #F5F4FA;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -155,7 +174,7 @@ h1 {
 }
 .list-botton-filtres:hover,
 .list-botton-filtres:focus {
-  color: #ffffff;
+  color: #2196f3;
 }
 
 /* Список проектів */
