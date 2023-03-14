@@ -1,3 +1,7 @@
+.background {
+  background: #2f303a;
+}
+
 /* Логотип */
 .logo {
   font-family: "Raleway";
@@ -7,9 +11,19 @@
   letter-spacing: 0.03em;
   color: #000000;
 }
+
+.logo-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
 /* Навігація сайту */
 .nav {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -17,7 +31,7 @@
   color: #212121;
 }
 
-.logo .nav.current{
+.logo .nav.current {
   color: #2196f3;
 }
 .nav:hover,
@@ -26,7 +40,7 @@
 }
 /* Контакти шапка */
 .contacontacts-header-mail {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -40,7 +54,7 @@
 }
 
 .contacontacts-header-tel {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -53,17 +67,18 @@
 }
 /* Основний заголовок */
 h1 {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  /* color: #FFFFFF;} */
+  color: #ffffff;
 }
+
 .button-hero {
   background: #2196f3;
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -75,7 +90,7 @@ h1 {
 
 /* Особливості */
 .list-subtitle {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -85,7 +100,7 @@ h1 {
 }
 
 .list-text-subtitle {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -96,7 +111,7 @@ h1 {
 
 /* Список зоголовків */
 .title-list {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -108,7 +123,7 @@ h1 {
 /* Список працівників */
 
 .list-worker {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -117,7 +132,7 @@ h1 {
   color: #212121;
 }
 .List-vacancies {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -125,46 +140,48 @@ h1 {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.team{
+  background: #F5F4FA;
+}
 
 /* Адрес підвал */
 .address {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 /* Контакти підвал */
 .contacontacts-footer {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Портфоліо */
 
 /* Кнопки фільтра */
-.list-botton-filtres-all{
+.list-botton-filtres-all {
   background: #2196f3;
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: #FFFFFF;;
-
+  color: #ffffff;
 }
 .list-botton-filtres {
-  background: #F5F4FA;
-  font-family: "Roboto";
+  background: #f5f4fa;
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -180,7 +197,7 @@ h1 {
 /* Список проектів */
 
 .list-item-projects {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -189,7 +206,7 @@ h1 {
   color: #212121;
 }
 .list-text-projects {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
