@@ -1,3 +1,15 @@
+:root{
+--primarri-text-color color: #212121;
+--secondary-text-color color: #757575;
+--accent-color color: #2196f3; 
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+ul{
+  list-style: none;
+}
 .background {
   background: #2f303a;
 }
@@ -10,31 +22,32 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #000000;
+  text-decoration: none;
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo-footer {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: none;
 }
 .logo-footer-studio {
   color: #ffffff;
 }
 /* Навігація сайту */
 .nav {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  text-decoration: none;
 }
 
 .nav.current {
@@ -46,12 +59,12 @@
 }
 /* Контакти шапка */
 .contacontacts-header-mail {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: #757575; 
+  text-decoration: none;
 }
 
 .contacontacts-header-mail:hover,
@@ -60,12 +73,12 @@
 }
 
 .contacontacts-header-tel {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color:  #757575;;
+  text-decoration: none;
 }
 .contacontacts-header-tel:hover,
 .contacontacts-header-tel:focus {
@@ -73,7 +86,6 @@
 }
 /* Основний заголовок */
 h1 {
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -84,8 +96,6 @@ h1 {
 
 .button-hero {
   background: #2196f3;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -96,8 +106,6 @@ h1 {
 
 /* Особливості */
 .list-subtitle {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -106,19 +114,15 @@ h1 {
 }
 
 .list-text-subtitle {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color:  #757575;;
 }
 
 /* Список зоголовків */
 .title-list {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -129,8 +133,6 @@ h1 {
 /* Список працівників */
 
 .list-worker {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -138,13 +140,11 @@ h1 {
   color: #212121;
 }
 .List-vacancies {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: #757575;
+  color:  #757575;;
 }
 .team {
   background: #f5f4fa;
@@ -152,7 +152,6 @@ h1 {
 
 /* Адрес підвал */
 .address {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -163,13 +162,12 @@ h1 {
 
 /* Контакти підвал */
 .contacontacts-footer {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 /* Портфоліо */
@@ -177,8 +175,6 @@ h1 {
 /* Кнопки фільтра */
 .list-botton-filtres-all {
   background: #2196f3;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -187,8 +183,6 @@ h1 {
 }
 .list-botton-filtres {
   background: #f5f4fa;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -197,26 +191,28 @@ h1 {
 }
 .list-botton-filtres:hover,
 .list-botton-filtres:focus {
-  color: #2196f3;
+  color: #ffffff;
+}
+.list-botton-filtres:hover,
+.list-botton-filtres:focus {
+  background: #2196f3;
 }
 
 /* Список проектів */
 
 .list-item-projects {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  text-decoration: none;
 }
 .list-text-projects {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color:  #757575;;
+  text-decoration: none;
 }
