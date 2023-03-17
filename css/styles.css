@@ -206,7 +206,7 @@ h1 {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primarri-text-color);
-  text-decoration: none;
+  
 }
 .list-text-projects {
   font-weight: 400;
@@ -214,5 +214,9 @@ h1 {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color:  var(--secondary-text-color);;
+  
+}
+
+.decoration-none{
   text-decoration: none;
 }
